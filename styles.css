@@ -1,0 +1,131 @@
+
+.container-fluid {
+       padding: 0 10% 0.5%;
+       background: linear-gradient(
+         to right,
+         #bc9579 0%,
+         #bc9579 75%,
+         #513928 75%,
+         #513928 100%
+       );
+}
+
+/*-------------------------------------navbar------------------------------------------*/
+.logo{
+  height: 10%;
+  width:10%;
+}
+.navbar {
+  padding: 0 0 1.5rem;
+}
+
+.items{
+  padding-left: 400px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat-light', sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.navbar-brand {
+font-family: 'Dancing Script', cursive;
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+/*---------------------------------------- title section------------------------------------------------*/
+
+#title {
+  text-align: left;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.slogan{
+  padding-bottom: 2.1%;
+}
+
+.big-title {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.small-title{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #38220f;
+  font-family: 'Cookie', cursive;
+}
+.btn {
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  text-shadow: 0px 3px 2px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #513928 ;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #967259;
+  text-decoration: none;
+}
+
+
+
+.title-img {
+  width: 60%;
+  position: absolute;
+  right: 10%;
+  bottom: -15%;
+}
+
+.title-img-div {
+  position: relative;
+}
+/*---------------- Extra------------------------------------------*/
+.extra{
+  padding: 2% 0 0;
+}
+
+.extras{
+  font-size: 1.2rem;
+  margin-left: 13%;
+  font-family: 'Pacifico', cursive;
+  color: #38220f;
+}
+
+/*------------------------------------------media query breakpoints-------------------------------------------------*/
+@media (max-width:1121px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+.icon1{
+  width: 50%;
+}
+
+  .extras{
+    font-size: 2.2rem;
+  }
+.items{
+  padding-left: 100px;
+  text-align: left;
+}
+}
